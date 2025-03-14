@@ -6,9 +6,9 @@ public class parallaxBackgroundController : MonoBehaviour
     public GameObject cam;
     public float parallaxEffect;
 
-    void Start()
+    void Awake()
     {
-        cam = transform.root.GetComponentInChildren<Camera>().gameObject;
+        cam = Camera.main.gameObject;
         startPos = transform.position.x;
         lenght = GetComponent<SpriteRenderer>().bounds.size.x;
     }

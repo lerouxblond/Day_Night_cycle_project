@@ -9,7 +9,7 @@ namespace TimePeriods.Model
     {
         [field: SerializeField] public List<TimePeriod> listOfTimePeriod { get; set; }
         [field: SerializeField] public int currentPeriodIndex { get; set; } = 0;
-        public event Action<TimePeriod> informAboutTimeUpdate;
+        
         public bool isInit { get; set; } = false;
 
         public TimePeriod getCurrentTimePeriod()
@@ -17,23 +17,22 @@ namespace TimePeriods.Model
             return listOfTimePeriod[currentPeriodIndex];
         }
 
-        public TimePeriod getNextTimePeriod()
+        public (TimePeriod, bool) getNextTimePeriod()
         {
-            if (currentPeriodIndex >= listOfTimePeriod.Count)
+            if (currentPeriodIndex >= listOfTimePeriod.Count-1)
             {
-                informAboutTimeUpdate?.Invoke(getFirstTimePeriod());
-                return getFirstTimePeriod();
+                currentPeriodIndex = 0;
+                return (getFirstTimePeriod(), true);
             }
             else
             {
-                informAboutTimeUpdate?.Invoke(listOfTimePeriod[currentPeriodIndex+1]);
-                return listOfTimePeriod[currentPeriodIndex+1];
+                currentPeriodIndex++;
+                return (listOfTimePeriod[currentPeriodIndex], false);
             }
         }
 
         public TimePeriod getFirstTimePeriod()
         {
-            currentPeriodIndex = 0;
             return listOfTimePeriod[currentPeriodIndex];
         }
     }

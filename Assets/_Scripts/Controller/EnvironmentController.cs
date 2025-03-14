@@ -8,7 +8,10 @@ public class EnvironmentController : MonoBehaviour
 
     void Awake()
     {
-        mainCam = transform.root.GetComponentInChildren<Camera>();
+        if (mainCam != null)
+            return;
+        else
+            mainCam = Camera.main;
     }
 
     public void changeBackground(GameObject backgroundParallaxPrefab)

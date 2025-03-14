@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3258560025697465018}
   - component: {fileID: 959486141128597351}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: DayAfternoonBackgroundCamGroup
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -26,7 +26,7 @@ Transform:
   m_GameObject: {fileID: 1415032691419375088}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -47,6 +47,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 40f5550e2c7050e4d9b18dbe05f5a602, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  parallaxBackgrounds: []
 --- !u!1 &2337620600802518550
 GameObject:
   m_ObjectHideFlags: 0
@@ -58,7 +59,7 @@ GameObject:
   - component: {fileID: 8282364178792078160}
   - component: {fileID: 2173441443664384063}
   - component: {fileID: 3552272139206750482}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: bakcground_day1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -74,7 +75,7 @@ Transform:
   m_GameObject: {fileID: 2337620600802518550}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -161,7 +162,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6482872411992248537}
   - component: {fileID: 4715124745851483907}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: bakcground_day3 (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -177,7 +178,7 @@ Transform:
   m_GameObject: {fileID: 2725114979567044711}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 40, y: 0, z: 0}
+  m_LocalPosition: {x: 40, y: 0, z: 10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -249,7 +250,7 @@ GameObject:
   - component: {fileID: 286762707877320535}
   - component: {fileID: 2399290791450061713}
   - component: {fileID: 2078710424575647037}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: bakcground_day2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -265,7 +266,7 @@ Transform:
   m_GameObject: {fileID: 2845134175616462246}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -353,7 +354,7 @@ GameObject:
   - component: {fileID: 6403896406885971048}
   - component: {fileID: 3535366104420864902}
   - component: {fileID: 371216188034273823}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: bakcground_day3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -369,7 +370,7 @@ Transform:
   m_GameObject: {fileID: 4429387194748361243}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -456,7 +457,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7599491029315685881}
   - component: {fileID: 6230399900145964532}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: bakcground_day1 (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -472,7 +473,7 @@ Transform:
   m_GameObject: {fileID: 4889540053300985864}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 40, y: 0, z: 0}
+  m_LocalPosition: {x: 40, y: 0, z: 10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -543,7 +544,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1110754267027518976}
   - component: {fileID: 6471411565372834486}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: bakcground_day1 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -559,7 +560,7 @@ Transform:
   m_GameObject: {fileID: 5260183993190676464}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -40, y: 0, z: 0}
+  m_LocalPosition: {x: -40, y: 0, z: 10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -630,7 +631,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7772627320188794003}
   - component: {fileID: 8426950337554943430}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: bakcground_day3 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -646,7 +647,7 @@ Transform:
   m_GameObject: {fileID: 5633357425643992219}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -40, y: 0, z: 0}
+  m_LocalPosition: {x: -40, y: 0, z: 10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -717,7 +718,7 @@ GameObject:
   m_Component:
   - component: {fileID: 406079027186735429}
   - component: {fileID: 4738876790836960770}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: bakcground_day2 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -733,7 +734,7 @@ Transform:
   m_GameObject: {fileID: 7060730999657667938}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -40, y: 0, z: 0}
+  m_LocalPosition: {x: -40, y: 0, z: 10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -804,7 +805,7 @@ GameObject:
   m_Component:
   - component: {fileID: 9019794479974605027}
   - component: {fileID: 5773739949135656252}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: bakcground_day2 (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -820,7 +821,7 @@ Transform:
   m_GameObject: {fileID: 8676645206277944609}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 40, y: 0, z: 0}
+  m_LocalPosition: {x: 40, y: 0, z: 10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []

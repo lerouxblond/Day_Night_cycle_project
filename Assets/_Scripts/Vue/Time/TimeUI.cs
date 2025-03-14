@@ -1,13 +1,19 @@
 using System;
 using UnityEngine;
+using UnityEngine.UI;
 
 namespace TimePeriods.UI
 {
     public class TimeUI : MonoBehaviour
     {
+
+        [SerializeField] private Text periodText;
+
+        
+
         public void updatePeriodUI(string periodName)
         {
-            throw new NotImplementedException();
+            this.periodText.text = periodName;
         }
     }
 
