@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7a94be91c81a09a4a9459e44fe9972da, type: 3}
+  m_Name: NormalDayTimePeriod
+  m_EditorClassIdentifier: 
+  <listOfTimePeriod>k__BackingField:
+  - <timePeriod>k__BackingField: {fileID: 11400000, guid: 7f4348042c7ce3647a4b7627df86294a, type: 2}
+  - <timePeriod>k__BackingField: {fileID: 11400000, guid: ec7bfcce5fda20c41ba883c8f687731f, type: 2}
+  - <timePeriod>k__BackingField: {fileID: 11400000, guid: 63a6419f43aeeab42b9b7e468c264fcb, type: 2}
+  <currentPeriodIndex>k__BackingField: 0

@@ -8,6 +8,7 @@ public class parallaxBackgroundController : MonoBehaviour
 
     void Start()
     {
+        cam = transform.root.GetComponentInChildren<Camera>().gameObject;
         startPos = transform.position.x;
         lenght = GetComponent<SpriteRenderer>().bounds.size.x;
     }
