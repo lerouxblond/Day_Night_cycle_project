@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 01009df5dc5756b4395b2e2dca74ce1a, type: 3}
+  m_Name: UngloriousSeason
+  m_EditorClassIdentifier: 
+  <seasonName>k__BackingField: Unglorious
+  <seasonDescription>k__BackingField: Hetero Season
+  <monthList>k__BackingField:
+  - month:
+    - {fileID: 11400000, guid: 13227c65be81d9241814682108faafc4, type: 2}
+    - {fileID: 11400000, guid: e004fe8604dd7d34685c3082c9dc9d50, type: 2}
