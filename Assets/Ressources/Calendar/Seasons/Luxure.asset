@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f7e0247fb28b0a747850bcd78948b824, type: 3}
+  m_Name: Luxure
+  m_EditorClassIdentifier: 
+  <seasonName>k__BackingField: Laluxure
+  <seasonDescription>k__BackingField: A luxure season wich life is a gift no one
+    could take.
+  <monthList>k__BackingField:
+  - {fileID: 11400000, guid: 1a58c86725803974880954d360f7276b, type: 2}
+  - {fileID: 11400000, guid: e85b0a8bfb1116f4abdd5ff272230f8b, type: 2}
+  - {fileID: 11400000, guid: 740f7ec2a71aa7948a8de9a6428ca331, type: 2}
+  - {fileID: 11400000, guid: 0447d8a7253e570478540755153be1da, type: 2}

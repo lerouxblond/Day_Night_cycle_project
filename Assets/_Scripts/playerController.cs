@@ -47,9 +47,9 @@ public class playerController : MonoBehaviour
         transform.position += movement;
 
         if (moveInput.x > 0)
-            spriteTransform.localScale = new Vector3(1, 1, 1);
+            transform.localScale = new Vector3(10, 10, 1);
         else if (moveInput.x < 0)
-            spriteTransform.localScale = new Vector3(-1, 1, 1);
+            transform.localScale = new Vector3(-10, 10, 1);
     }
 
     private void handleAnimation()

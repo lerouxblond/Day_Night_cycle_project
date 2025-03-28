@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: df62845495f076245b0fec57831657dd, type: 3}
+  m_Name: Campfire
+  m_EditorClassIdentifier: 
+  <propName>k__BackingField: Campfire
+  <propDescription>k__BackingField: "A campfire to rest a bit.\n\nEffect:\n\tskip
+    a period.\n\trestore health."
+  <propSpritePrefab>k__BackingField: {fileID: 6309599118117444192, guid: e8bae36b607017047ace9061609051d9, type: 3}
+  <restingTime>k__BackingField: 10
